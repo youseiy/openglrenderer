@@ -1,0 +1,41 @@
+# IDE and local tooling
+.idea/
+.cache/
+.cmake/
+.codex/
+.agents/
+
+# CMake and Ninja build output
+CMakeCache.txt
+CMakeFiles/
+Testing/
+build.ninja
+cmake_install.cmake
+compile_commands.json
+.ninja_deps
+.ninja_log
+
+# Executables and libraries
+/glrenderer
+*.a
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+
+# Generated dependency build files
+dependencies/**/CMakeFiles/
+dependencies/**/Makefile
+dependencies/**/cmake_install.cmake
+dependencies/**/build.ninja
+dependencies/**/CMakeCache.txt
+dependencies/**/.ninja_deps
+dependencies/**/.ninja_log
+
+# Runtime state
+imgui.ini
+
+# OS files
+.DS_Store
+Thumbs.db
